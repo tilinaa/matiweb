@@ -1,0 +1,34 @@
+<a href="menu.html" class="back-button">← Al menú</a>
+
+<!DOCTYPE html>
+<html lang="en">
+<head><link rel="stylesheet" href="style.css">
+
+  <meta charset="UTF-8" />
+  <title> Nuestro albumcito <3 </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="title">₊˚⊹ ᰔ 2025 ₊˚⊹ ᰔ</h1>
+  <div class="album-container">
+    <div class="album-card" onclick="goToAlbum('january')"><h2>ENERO</h2></div>
+    <div class="album-card" onclick="goToAlbum('february')"><h2>FEBRERO</h2></div>
+    <div class="album-card" onclick="goToAlbum('march')"><h2>MARZO</h2></div>
+    <div class="album-card" onclick="goToAlbum('april')"><h2>ABRIL</h2></div>
+    <div class="album-card" onclick="goToAlbum('may')"><h2>MAYO</h2></div>
+    <div class="album-card" onclick="goToAlbum('june')"><h2>JUNIO</h2></div>
+    <div class="album-card" onclick="goToAlbum('july')"><h2>JULIO</h2></div>
+    <div class="album-card" onclick="goToAlbum('august')"><h2>AGOSTO</h2></div>
+    <div class="album-card" onclick="goToAlbum('september')"><h2>SEPTIEMBRE</h2></div>
+    <div class="album-card" onclick="goToAlbum('october')"><h2>OCTUBRE</h2></div>
+    <div class="album-card" onclick="goToAlbum('november')"><h2>NOVIEMBRE</h2></div>
+    <div class="album-card" onclick="goToAlbum('december')"><h2>DICIEMBRE</h2></div>
+  </div>
+
+  <script>
+  function goToAlbum(month) {
+    window.location.href = month + ".html";
+  }
+</script>
+
+
