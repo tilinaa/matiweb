@@ -1,0 +1,215 @@
+body {
+  font-family: 'Dancing script', cursive;
+  background-image: url("bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: #272626;
+  margin: 0;
+  padding: 0;
+  backdrop-filter: brightness(0.95);
+}
+
+
+/* Centered layout for password page */
+.centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Form elements */
+input, button {
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+  margin: 10px;
+}
+
+button {
+  background-color: #fa9797;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ffa4b2;
+}
+
+/* Title on homepage */
+.title {
+  text-align: center;
+  font-size: 36px;
+  margin-top: 30px;
+  color: #fcccdb;
+}
+
+/* Album grid container */
+.album-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 40px auto;
+  max-width: 900px;
+}
+
+/* Each album card */
+.album-card {
+  background-color: rgba(252, 112, 158, 0.219); /* softer pink + transparent */
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 150px;
+  height: 150px;
+  margin: 15px;
+  text-align: center;
+  padding: 20px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+
+.album-card h2 {
+  font-size: 18px;
+  color: #eeeeee;
+}
+
+.album-card:hover {
+  transform: scale(1.05);
+  background-color: #db6161;
+}
+.page-container {
+  padding: 40px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.memory {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.memory img {
+  width: 300px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.text-box {
+  background-color: rgba(255, 240, 245, 0.8); /* soft pink with transparency */
+  padding: 20px;
+  border-radius: 20px;
+  max-width: 400px;
+  flex: 1;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.text-box h3 {
+  margin-top: 0;
+  color: #d6336c;
+}
+
+.text-box p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.menu-page {
+  background-image: url("bg.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 50px 20px;
+  color: #fff;
+}
+
+.menu h1 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.menu-item {
+  background-color: rgba(29, 22, 23, 0.295);
+  border: none;
+  border-radius: 15px;
+  padding: 15px 25px;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  width: 250px;
+  transition: transform 0.2s ease;
+}
+
+.menu-item:hover {
+  transform: scale(1.05);
+  background-color: rgba(255, 160, 180, 0.425);
+}
+
+.love-counter {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 8px 12px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 14px;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+.love-fact {
+  margin-top: 30px;
+  font-size: 18px;
+  max-width: 400px;
+  margin-inline: auto;
+  background-color: rgba(8, 8, 8, 0.541);
+  padding: 15px;
+  border-radius: 15px;
+}
+.back-button {
+  display: inline-block;
+  margin: 30px auto;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.back-button:hover {
+  background-color: rgba(255, 182, 193, 0.4);
+}
+.game-page {
+  background-color: #ffeef5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
+
+canvas {
+  background-color: #fffce6;
+  border: 4px solid #f9c2d1;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+
